@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uvodni", "ConsoleApp1\Uvodni.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbroj", "Zbroj\Zbroj.csproj", "{845E85C4-0639-4728-9349-A3DC48D8E56D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1_Uvod", "4.1_Uvod", "{6E1DFCED-8FC1-4DAE-B4B2-0471DD06A599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,19 @@ Global
 		{31F30331-D9D7-4529-9C4C-B096F2654F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F30331-D9D7-4529-9C4C-B096F2654F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F30331-D9D7-4529-9C4C-B096F2654F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845E85C4-0639-4728-9349-A3DC48D8E56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845E85C4-0639-4728-9349-A3DC48D8E56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845E85C4-0639-4728-9349-A3DC48D8E56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845E85C4-0639-4728-9349-A3DC48D8E56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE} = {6E1DFCED-8FC1-4DAE-B4B2-0471DD06A599}
 	EndGlobalSection
 EndGlobal
