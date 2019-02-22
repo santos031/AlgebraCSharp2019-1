@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1_Uvod", "4.1_Uvod", "{6E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zbroj_Razlika", "Zbroj_Razlika", "{A80335FB-674C-4A90-8B9E-EC442ED66ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbroj_razlika", "zbroj_razlika\zbroj_razlika.csproj", "{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +33,16 @@ Global
 		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE} = {6E1DFCED-8FC1-4DAE-B4B2-0471DD06A599}
+		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE} = {A80335FB-674C-4A90-8B9E-EC442ED66ED6}
 	EndGlobalSection
 EndGlobal
