@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zbroj_Razlika", "Zbroj_Razl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbroj_razlika", "zbroj_razlika\zbroj_razlika.csproj", "{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2_Uvjetno_grananje", "5.2_Uvjetno_grananje", "{DCF08715-B10D-4FC8-BFA7-3ED55A25F6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "veci_od_10", "veci_od_10\veci_od_10.csproj", "{E6D05179-3F2A-4919-B2F7-BAB8F8532537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pozitivan_negativan", "pozitivan_negativan\pozitivan_negativan.csproj", "{93D1EB53-89C7-4535-ACEF-644C2BC334AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D05179-3F2A-4919-B2F7-BAB8F8532537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D05179-3F2A-4919-B2F7-BAB8F8532537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D05179-3F2A-4919-B2F7-BAB8F8532537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D05179-3F2A-4919-B2F7-BAB8F8532537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D1EB53-89C7-4535-ACEF-644C2BC334AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D1EB53-89C7-4535-ACEF-644C2BC334AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D1EB53-89C7-4535-ACEF-644C2BC334AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D1EB53-89C7-4535-ACEF-644C2BC334AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +58,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE} = {6E1DFCED-8FC1-4DAE-B4B2-0471DD06A599}
 		{8AB9B7E3-ABCE-4267-9AD1-7595930679CE} = {A80335FB-674C-4A90-8B9E-EC442ED66ED6}
+		{E6D05179-3F2A-4919-B2F7-BAB8F8532537} = {DCF08715-B10D-4FC8-BFA7-3ED55A25F6DD}
+		{93D1EB53-89C7-4535-ACEF-644C2BC334AE} = {DCF08715-B10D-4FC8-BFA7-3ED55A25F6DD}
 	EndGlobalSection
 EndGlobal
