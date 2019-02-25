@@ -15,7 +15,8 @@ namespace pozitivan_negativan
             if (a > 0)
             {
                 Console.WriteLine("Uneseni broj je POZITIVAN.");
-            }
+            } 
+
             else
             {
                 if (a < 0)
