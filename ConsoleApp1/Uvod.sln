@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petlja_primjeri_while", "pe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.1_neparni_do_20", "zz_5.3.1_neparni_do_20\zz_5.3.1_neparni_do_20.csproj", "{3F1CE594-2F1D-4B26-ADF0-C8ADE9D8F261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.3_suma_100_brojeva", "zz_5.3.3_suma_100_brojeva\zz_5.3.3_suma_100_brojeva.csproj", "{84E8CB30-4672-435F-BE8D-1D42965E959E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{3F1CE594-2F1D-4B26-ADF0-C8ADE9D8F261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F1CE594-2F1D-4B26-ADF0-C8ADE9D8F261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F1CE594-2F1D-4B26-ADF0-C8ADE9D8F261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E8CB30-4672-435F-BE8D-1D42965E959E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E8CB30-4672-435F-BE8D-1D42965E959E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E8CB30-4672-435F-BE8D-1D42965E959E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E8CB30-4672-435F-BE8D-1D42965E959E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{2DEFB962-055E-4542-B8F1-852BAF2D097B} = {F02BF0E1-D9B0-41B2-9E1B-C031F605555B}
 		{7602B044-57C8-49E3-A527-9182308B3EDD} = {F02BF0E1-D9B0-41B2-9E1B-C031F605555B}
 		{3F1CE594-2F1D-4B26-ADF0-C8ADE9D8F261} = {F02BF0E1-D9B0-41B2-9E1B-C031F605555B}
+		{84E8CB30-4672-435F-BE8D-1D42965E959E} = {F02BF0E1-D9B0-41B2-9E1B-C031F605555B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}
