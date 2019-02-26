@@ -10,6 +10,7 @@ namespace if_primjer
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             /*
             int arg0 = int.Parse(args[0]);
             int arg1 = int.Parse(args[1]);
@@ -29,6 +30,13 @@ namespace if_primjer
             }
 
             Console.ReadKey();
+=======
+            int arg0 = int.Parse(arg[0]);
+            int arg1 = int.Parse(arg[1]);
+
+            Console.WriteLine
+
+>>>>>>> b46ce98c4078c5d0271fe79615ab9a2d953b4ff2
         }
     }
 }

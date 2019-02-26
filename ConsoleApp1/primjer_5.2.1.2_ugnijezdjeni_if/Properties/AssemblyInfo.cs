@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("if_primjer")]
+[assembly: AssemblyTitle("primjer_5.2.1.2_ugnijezdjeni_if")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("if_primjer")]
+[assembly: AssemblyProduct("primjer_5.2.1.2_ugnijezdjeni_if")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,11 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-<<<<<<< HEAD
-[assembly: Guid("b115c56c-759c-4fe8-b30a-b5550f650228")]
-=======
-[assembly: Guid("67d220c6-8366-479c-82a2-6832464f07f7")]
->>>>>>> b46ce98c4078c5d0271fe79615ab9a2d953b4ff2
+[assembly: Guid("c26b4e4b-0690-4e2b-8050-510c39204c80")]
 
 // Version information for an assembly consists of the following four values:
 //

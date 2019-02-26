@@ -8,6 +8,7 @@ namespace zbroj_razlika
 {
     class Program
     {
+<<<<<<< HEAD
         
         static void Main(string[] args)
         {
@@ -31,6 +32,24 @@ namespace zbroj_razlika
             Console.WriteLine("Kvocijent je:{0}", (decimal)a/(decimal)b);
 
             
+=======
+        static void Main(string[] args)
+        {
+            double a = 0, b = 0;
+            Console.WriteLine("Unesi 1.broj");
+            a = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Unesi 2.broj");
+            b = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Zbroj 1. i 2. broja je:{0}", a + b);
+
+            Console.WriteLine("Razlika 1. i 2. broja je:{0}", a - b);
+
+            Console.WriteLine("Umnožak 1. i 2. broja je:{0}", a * b);
+
+            Console.WriteLine("Kvocijent 1. i 2. broja je:{0}", a / b);
+>>>>>>> b46ce98c4078c5d0271fe79615ab9a2d953b4ff2
 
             Console.ReadLine();
         }

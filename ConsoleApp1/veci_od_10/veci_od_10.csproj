@@ -4,24 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
-    <ProjectGuid>{D57B4D9F-C756-4E84-951D-2D56EDE879A7}</ProjectGuid>
+    <ProjectGuid>{E6D05179-3F2A-4919-B2F7-BAB8F8532537}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hello</RootNamespace>
-    <AssemblyName>Hello</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-=======
-    <ProjectGuid>{92DBF2BF-D8B0-4714-A9E4-FDD24AF1F1FE}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Hello</RootNamespace>
-    <AssemblyName>Hello</AssemblyName>
+    <RootNamespace>veci_od_10</RootNamespace>
+    <AssemblyName>veci_od_10</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
->>>>>>> b46ce98c4078c5d0271fe79615ab9a2d953b4ff2
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

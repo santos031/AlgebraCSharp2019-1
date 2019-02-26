@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("if_primjer")]
+[assembly: AssemblyTitle("veci_od_10")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("if_primjer")]
+[assembly: AssemblyProduct("veci_od_10")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,11 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-<<<<<<< HEAD
-[assembly: Guid("b115c56c-759c-4fe8-b30a-b5550f650228")]
-=======
-[assembly: Guid("67d220c6-8366-479c-82a2-6832464f07f7")]
->>>>>>> b46ce98c4078c5d0271fe79615ab9a2d953b4ff2
+[assembly: Guid("e6d05179-3f2a-4919-b2f7-bab8f8532537")]
 
 // Version information for an assembly consists of the following four values:
 //
