@@ -21,7 +21,7 @@ namespace primjer_5._3._1._1
                 {
                 for (int j = 1; j <= 10; j++)
                 {
-                    Console.WriteLine("{0}\t", (i*j).ToString());
+                    Console.Write("{0}\t", (i*j).ToString());
                 }
                 }
              Console.ReadKey();

@@ -4,23 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zz_5._3._3_suma_100_brojeva
+namespace zz_5._3._16_potencije1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n\nSuma prvih 100.");
-            int suma = 0;
-            for (int i = 0; i < 100; i++)
+            Console.WriteLine("Potencije broja 2 manje od 1000 su:");
+
+            for (int i = 2; i <= 1000; i *= 2)
             {
-                suma = (suma + i);
-                Console.Write("{0} ", suma);
+                Console.WriteLine(i.ToString());
             }
-
             Console.ReadKey();
-
         }
-
-    }  
+    }
 }

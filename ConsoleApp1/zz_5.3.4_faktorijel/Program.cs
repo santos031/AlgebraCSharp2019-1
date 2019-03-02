@@ -61,6 +61,11 @@ namespace zz_5._3._4_faktorijel
             : base(message, inner)
         {
         }
+
+
+
+
+
         public class VeciodDvajstException : Exception
         {
             public VeciodDvajstException()
