@@ -14,27 +14,46 @@ namespace zz_5._3._20_par_nepar
             int nepar = 0;
             int broj = -1;
 
-            while(broj != 0)
+            try
             {
-                Console.WriteLine("Unesite prirodan broj: ");
-                broj = int.Parse(Console.ReadLine());
-
-                if (broj != 0)
+                while (broj != 0)
                 {
-                    if (broj % 2 == 0)
+                    Console.WriteLine("Unesite prirodan broj: ");
+                    broj = int.Parse(Console.ReadLine());
+
+                    if (broj != 0)
                     {
-                        par++;
-                    }
-                    else
-                    {
-                        nepar++;
+                        if (broj % 2 == 0)
+                        {
+                            par++;
+                        }
+                        else
+                        {
+                            nepar++;
+                        }
                     }
                 }
             }
-            Console.WriteLine("Parni brojevi: " + par.ToString());
-            Console.WriteLine("Neparni brojevi: " + nepar.ToString());
-            Console.ReadKey();
-
+            catch (NegativeNumberException ex)
+            {
+                Console.WriteLine("GREŠKA: Dozvoljeni su samo prirodni brojevi." + ex.Message);
+            }
+            catch (FormatException fex)
+            {
+                Console.WriteLine("GREŠKA: Nije unešen numerički znak." + fex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Parni brojevi: " + par.ToString());
+                Console.WriteLine("Neparni brojevi: " + nepar.ToString());
+                Console.ReadKey();
+            }
+        }
+        public class NegativeNumberException : Exception
+        {
+            public NegativeNumberException()
+            {
+            }
         }
     }
 }

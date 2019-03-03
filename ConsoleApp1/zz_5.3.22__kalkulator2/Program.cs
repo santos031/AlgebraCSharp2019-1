@@ -14,38 +14,68 @@ namespace zz_5._3._22__kalkulator2
             string operacija = "";
             string odgovor = "D";
 
-            while (odgovor == "D" || odgovor == "d")
+            try
             {
-                Console.WriteLine("Unesite 1.broj: ");
-                a = float.Parse(Console.ReadLine());
-                Console.WriteLine("Unesite 2.broj: ");
-                b = float.Parse(Console.ReadLine());
-                Console.WriteLine("Unesite računsku operaciju: ");
-                operacija = Console.ReadLine();
-
-                switch (operacija)
+                while (odgovor == "D" || odgovor == "d")
                 {
-                    case "+":
-                        Console.WriteLine("Zbroj: {0}", a + b);
-                        break;
-                    case "-":
-                        Console.WriteLine("Zbroj: {0}", a - b);
-                        break;
-                    case "*":
-                        Console.WriteLine("Zbroj: {0}", a * b);
-                        break;
-                    case "/":
-                        Console.WriteLine("Zbroj: {0}", a / b);
-                        break;
-                    default:
-                        Console.WriteLine("Greška u unosu računske operacije!");
-                        break;
-                }
+                    Console.WriteLine("Unesite 1.broj: ");
+                    a = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Unesite 2.broj: ");
+                    b = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Unesite računsku operaciju: ");
+                    operacija = Console.ReadLine();
 
+                    switch (operacija)
+                    {
+                        case "+":
+                            Console.WriteLine("Zbroj: {0}", a + b);
+                            break;
+                        case "-":
+                            Console.WriteLine("Razlika: {0}", a - b);
+                            break;
+                        case "*":
+                            Console.WriteLine("Umnožak: {0}", a * b);
+                            break;
+                        case "/":
+                            Console.WriteLine("Kvocijent: {0}", a / b);
+                            break;
+                        default:
+                            Console.WriteLine("Greška u unosu računske operacije!");
+                            break;
+                    }
+                }
+            }
+
+            catch (DivideByZeroException dex)
+            {
+                Console.WriteLine("GREŠKA: Nemoguće je dijeljenje sa 0." + dex);
+            }
+            catch (NotFiniteNumberException nex)
+            {
+                Console.WriteLine("GREŠKA: Nije dobar broj." + nex);
+            }
+            finally
+            {
                 Console.WriteLine("Želite li računati ponovo (D/N)?");
                 odgovor = Console.ReadLine();
+                Console.ReadKey();
             }
-            Console.ReadKey();
+        }
+
+            public class DivideByZeroException:ArithmeticException
+            {
+            public DivideByZeroException()
+            {
+            }
+            }
+                
+            public class NotFiniteNumberException:ArithmeticException
+            {
+            public NotFiniteNumberException()
+            {
+            }
+            }
+        
         }
     }
-}
+
