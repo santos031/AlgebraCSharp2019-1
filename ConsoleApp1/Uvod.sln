@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.20_par_nepar", "zz_5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.22__kalkulator2", "zz_5.3.22__kalkulator2\zz_5.3.22__kalkulator2.csproj", "{B118530A-E938-4BD9-8E60-DAB04E0B619A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.15_ispis_unatrag", "zz_5.3.15_ispis_unatrag\zz_5.3.15_ispis_unatrag.csproj", "{DE3C1DE0-99A7-4C30-B1D3-A804D292329A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +231,10 @@ Global
 		{B118530A-E938-4BD9-8E60-DAB04E0B619A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B118530A-E938-4BD9-8E60-DAB04E0B619A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B118530A-E938-4BD9-8E60-DAB04E0B619A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3C1DE0-99A7-4C30-B1D3-A804D292329A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3C1DE0-99A7-4C30-B1D3-A804D292329A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3C1DE0-99A7-4C30-B1D3-A804D292329A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3C1DE0-99A7-4C30-B1D3-A804D292329A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +273,7 @@ Global
 		{1F0F0CF2-5E5E-420E-AEB1-F523F2F9F365} = {C787D898-D8A2-44CF-B48E-0A9B2E336BED}
 		{DC2F0DD3-F629-40FF-A428-BF3B31502F5C} = {C787D898-D8A2-44CF-B48E-0A9B2E336BED}
 		{B118530A-E938-4BD9-8E60-DAB04E0B619A} = {C787D898-D8A2-44CF-B48E-0A9B2E336BED}
+		{DE3C1DE0-99A7-4C30-B1D3-A804D292329A} = {F02BF0E1-D9B0-41B2-9E1B-C031F605555B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

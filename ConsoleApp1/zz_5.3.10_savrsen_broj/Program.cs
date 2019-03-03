@@ -40,11 +40,11 @@ namespace zz_5._3._10_savrsen_broj
             }
             catch (NegativeNumberException ex)
             {
-                Console.WriteLine("Dozvoljeni su samo prirodni brojevi.");
+                Console.WriteLine("Dozvoljeni su samo prirodni brojevi." + ex.Message);
             }
             catch (FormatException fex)
             {
-                Console.WriteLine("GREŠKA: Nije unešen numerički znak:");
+                Console.WriteLine("GREŠKA: Nije unešen numerički znak:" + fex.Message);
             }
             finally
             {

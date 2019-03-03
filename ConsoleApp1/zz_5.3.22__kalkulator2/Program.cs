@@ -25,6 +25,11 @@ namespace zz_5._3._22__kalkulator2
                     Console.WriteLine("Unesite računsku operaciju: ");
                     operacija = Console.ReadLine();
 
+                    if (b == 0)
+                    {
+                        throw new DivideByZeroException();
+                    }
+
                     switch (operacija)
                     {
                         case "+":
@@ -50,10 +55,6 @@ namespace zz_5._3._22__kalkulator2
             {
                 Console.WriteLine("GREŠKA: Nemoguće je dijeljenje sa 0." + dex);
             }
-            catch (NotFiniteNumberException nex)
-            {
-                Console.WriteLine("GREŠKA: Nije dobar broj." + nex);
-            }
             finally
             {
                 Console.WriteLine("Želite li računati ponovo (D/N)?");
@@ -68,14 +69,6 @@ namespace zz_5._3._22__kalkulator2
             {
             }
             }
-                
-            public class NotFiniteNumberException:ArithmeticException
-            {
-            public NotFiniteNumberException()
-            {
-            }
-            }
-        
         }
     }
 

@@ -10,25 +10,35 @@ namespace zz_5._3._18_unos_ocjene
     {
         static void Main(string[] args)
         {
-            string ocjena = "";
+            int ocjena = 0;
             bool unos = false;
 
-            while (!unos)
+            try
             {
-                
-                Console.WriteLine("Unesite ocjenu:");
-                ocjena = Console.ReadLine();
+                while (!unos)
+                {
 
-                //if (ocjena > 0 && ocjena <= 5)
-                if (ocjena == "1" || ocjena == "2" || ocjena = "3" || ocjena == "4" || ocjena == "5")
-                {
-                    unos = true;
-                    Console.WriteLine("Ispravna ocjena");
+                    Console.WriteLine("Unesite ocjenu:");
+                    ocjena = int.Parse(Console.ReadLine());
+
+                    if (ocjena > 0 && ocjena <= 5)
+                    // if (ocjena == "1" || ocjena == "2" || ocjena == "3" || ocjena == "4" || ocjena == "5")
+                    {
+                        unos = true;
+                        Console.WriteLine("Ispravna ocjena");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Molim unos ispravne ocjene!");
+                    }
                 }
-                else 
-                {
-                    Console.WriteLine("Molim unos ispravne ocjene!");
-                }
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("GREŠKA: Nije unešen numerički znak." + ex.Message);
+            }
+            finally
+            { 
                 Console.ReadKey();
             }
         }

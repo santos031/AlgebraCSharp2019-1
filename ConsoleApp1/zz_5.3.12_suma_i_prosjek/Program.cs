@@ -26,9 +26,9 @@ namespace zz_5._3._12_suma_i_prosjek
 
                 Console.WriteLine("Suma = {0} \n Prosjek = {1}", suma, prosjek);
             }
-            catch (FormatException fex)
+            catch (FormatException ex)
             {
-                Console.WriteLine("GREŠKA: Nije unešen numerički znak.");
+                Console.WriteLine("GREŠKA: Nije unešen numerički znak." + ex.Message);
             }
             finally
             {
