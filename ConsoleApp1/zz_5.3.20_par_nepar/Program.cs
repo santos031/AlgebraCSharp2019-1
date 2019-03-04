@@ -21,6 +21,10 @@ namespace zz_5._3._20_par_nepar
                     Console.WriteLine("Unesite prirodan broj: ");
                     broj = int.Parse(Console.ReadLine());
 
+                    if (broj < 0)
+                    {
+                        throw new NegativeNumberException("greška");
+                    }
                     if (broj != 0)
                     {
                         if (broj % 2 == 0)
@@ -51,8 +55,9 @@ namespace zz_5._3._20_par_nepar
         }
         public class NegativeNumberException : Exception
         {
-            public NegativeNumberException()
+            public NegativeNumberException(String poruka)
             {
+                Console.WriteLine(poruka);
             }
         }
     }
