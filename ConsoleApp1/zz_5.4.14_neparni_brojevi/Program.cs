@@ -21,5 +21,6 @@ namespace zz_5._4._14_neparni_brojevi
             }
             Console.ReadKey();
         }
+        //u slucaju unosa intervala - moguć exception neispravan niz (ukoliko je unesen prvo veci, pa manji broj)
     }
 }

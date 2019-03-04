@@ -18,7 +18,7 @@ namespace zz_5._3._8_7_3_koliko
                     x ++;
                 }
             }
-            Console.WriteLine("U intervalu [1,1000] ima {0} brojeva dijeljivih sa 7, dok su istovremeno nedijelivi sa 3.", suma);
+            Console.WriteLine("U intervalu [1,1000] ima {0} brojeva dijeljivih sa 7, dok su istovremeno nedijelivi sa 3.", x);
             Console.ReadKey();
         }
     }

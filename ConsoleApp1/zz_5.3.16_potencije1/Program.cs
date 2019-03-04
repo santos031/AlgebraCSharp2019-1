@@ -18,5 +18,6 @@ namespace zz_5._3._16_potencije1
             }
             Console.ReadKey();
         }
+        
     }
 }

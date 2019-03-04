@@ -67,7 +67,7 @@ namespace zz_5._3._10_savrsen_broj
             : base(message, inner)
         {
         }
-
+        //Problem i kod upisa decimalnog broja??
     }
 }
 

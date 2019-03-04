@@ -12,7 +12,7 @@ namespace zz_5._3._22__kalkulator2
         {
             float a = 0, b = 0;
             string operacija = "";
-            string odgovor = "D";
+            string odgovor = "D"; //char umjesto string
 
             try
             {
@@ -58,7 +58,9 @@ namespace zz_5._3._22__kalkulator2
             finally
             {
                 Console.WriteLine("Želite li računati ponovo (D/N)?");
-                odgovor = Console.ReadLine();
+                odgovor = Console.ReadLine(); //convert to char - odgovor = Char.ToLower(Console.Readkey().KeyChar); (pretvaranje velikog u malo slovo)
+                //može biti i readkey zato sto se ne mora stisnuti enter
+                //if (odgovor=="n")
                 Console.ReadKey();
             }
         }
