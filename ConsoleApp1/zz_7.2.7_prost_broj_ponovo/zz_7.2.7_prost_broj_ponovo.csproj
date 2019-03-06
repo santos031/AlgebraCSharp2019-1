@@ -7,7 +7,7 @@
     <ProjectGuid>{AE69805A-6255-472D-87F0-819BDBED80B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._7_prost_broj_ponovo</RootNamespace>
-    <AssemblyName>zz_7._2._7_prost_broj_ponovo</AssemblyName>
+    <AssemblyName>zz_7.2.7_prost_broj_ponovo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

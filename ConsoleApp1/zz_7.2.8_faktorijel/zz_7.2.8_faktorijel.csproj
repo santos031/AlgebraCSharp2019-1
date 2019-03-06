@@ -7,7 +7,7 @@
     <ProjectGuid>{C5C2D2CD-E66E-463F-939D-9D090FFA62E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._8_faktorijel</RootNamespace>
-    <AssemblyName>zz_7._2._8_faktorijel</AssemblyName>
+    <AssemblyName>zz_7.2.8_faktorijel</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

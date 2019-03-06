@@ -7,7 +7,7 @@
     <ProjectGuid>{63F2D2BD-3B89-45BB-9100-5B937BE383A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._2_jednakokracan_trokut</RootNamespace>
-    <AssemblyName>zz_7._2._2_jednakokracan_trokut</AssemblyName>
+    <AssemblyName>zz_7.2.2_jednakokracan_trokut</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -7,7 +7,7 @@
     <ProjectGuid>{EE2D99DD-FA79-4907-9725-8B6DD48A8595}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._3_KS_KW</RootNamespace>
-    <AssemblyName>zz_7._2._3_KS_KW</AssemblyName>
+    <AssemblyName>zz_7.2.3_KS_KW</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

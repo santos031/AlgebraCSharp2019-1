@@ -7,7 +7,7 @@
     <ProjectGuid>{8A6D9CC0-0CA1-4CDB-9028-C885DE8348C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._6_prost_broj</RootNamespace>
-    <AssemblyName>zz_7._2._6_prost_broj</AssemblyName>
+    <AssemblyName>zz_7.2.6_prost_broj</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

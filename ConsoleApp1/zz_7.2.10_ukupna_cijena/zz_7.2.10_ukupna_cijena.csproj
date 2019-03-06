@@ -7,7 +7,7 @@
     <ProjectGuid>{3C01705A-F943-4BD6-B20D-E6E9ACD0639C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._10_ukupna_cijena</RootNamespace>
-    <AssemblyName>zz_7._2._10_ukupna_cijena</AssemblyName>
+    <AssemblyName>zz_7.2.10_ukupna_cijena</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
