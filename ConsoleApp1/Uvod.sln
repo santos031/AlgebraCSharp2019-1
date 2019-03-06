@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uvodni", "ConsoleApp1\Uvodni.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
 EndProject
@@ -65,7 +65,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.11_savrseni_brojevi"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.13_min_max", "zz_5.3.13_min_max\zz_5.3.13_min_max.csproj", "{CB4E0BA6-2118-40C5-9E92-2F9FB5C5938A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Zadaca", "1.Zadaca", "{C787D898-D8A2-44CF-B48E-0A9B2E336BED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Zadaca_ciklicke_petlje", "1.Zadaca_ciklicke_petlje", "{C787D898-D8A2-44CF-B48E-0A9B2E336BED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_5.3.8_7_3_koliko", "zz_5.3.8_7_3_koliko\zz_5.3.8_7_3_koliko.csproj", "{981C8DB6-8146-471E-A0B3-38E295F7BB77}"
 EndProject
@@ -111,6 +111,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2_potprogrami", "7.2_potp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.2_primjer", "7.2.2_primjer\7.2.2_primjer.csproj", "{203A74C2-D571-48CB-9071-398F1A3AD485}"
 EndProject
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Zadaca_funkcije", "2.Zadaca_funkcije", "{9B030296-21E7-447E-8B8A-379894B78369}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_7.2.1_krug2", "zz_7.2.1_krug2\zz_7.2.1_krug2.csproj", "{27E1CE03-34C3-4EDB-B085-F886FE9DAF36}"
@@ -138,6 +139,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_7.2.10_ukupna_cijena", "zz_7.2.10_ukupna_cijena\zz_7.2.10_ukupna_cijena.csproj", "{3C01705A-F943-4BD6-B20D-E6E9ACD0639C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_7.2.11_parni_neparni", "zz_7.2.11_parni_neparni\zz_7.2.11_parni_neparni.csproj", "{F62CFD82-E8FE-4769-B697-A18F4ABEA1B6}"
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Zadaca_funkcije", "2.Zadaca_funkcije", "{A13C3B84-A8FA-47E8-AC14-E35CAE4954B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_7.2.1_krug", "zz_7.2.1_krug\zz_7.2.1_krug.csproj", "{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A}"
+>>>>>>> 4136d8cc21ca6c82a0326fb58ea7dc6b816bc06c
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +339,7 @@ Global
 		{203A74C2-D571-48CB-9071-398F1A3AD485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{203A74C2-D571-48CB-9071-398F1A3AD485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203A74C2-D571-48CB-9071-398F1A3AD485}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{27E1CE03-34C3-4EDB-B085-F886FE9DAF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27E1CE03-34C3-4EDB-B085-F886FE9DAF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E1CE03-34C3-4EDB-B085-F886FE9DAF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -381,6 +388,12 @@ Global
 		{F62CFD82-E8FE-4769-B697-A18F4ABEA1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62CFD82-E8FE-4769-B697-A18F4ABEA1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62CFD82-E8FE-4769-B697-A18F4ABEA1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 4136d8cc21ca6c82a0326fb58ea7dc6b816bc06c
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -431,6 +444,7 @@ Global
 		{49ACB9D6-8E93-4A53-BD5A-CBF9E262B269} = {02E04ED6-883A-46F0-9196-D65826ADACA3}
 		{CD02638B-24C8-4E70-8810-7FADE853BB4C} = {397E410F-D19B-4D30-B33B-E90F55AF696E}
 		{203A74C2-D571-48CB-9071-398F1A3AD485} = {397E410F-D19B-4D30-B33B-E90F55AF696E}
+<<<<<<< HEAD
 		{27E1CE03-34C3-4EDB-B085-F886FE9DAF36} = {9B030296-21E7-447E-8B8A-379894B78369}
 		{0E6E8531-7B5E-49A9-89F9-F08AB0BF09B3} = {A0F4D1F4-962A-4217-92F3-5FEA5E64DEEA}
 		{63F2D2BD-3B89-45BB-9100-5B937BE383A4} = {9B030296-21E7-447E-8B8A-379894B78369}
@@ -443,6 +457,9 @@ Global
 		{3D815221-F8EC-404B-9A43-AFD5C7997479} = {9B030296-21E7-447E-8B8A-379894B78369}
 		{3C01705A-F943-4BD6-B20D-E6E9ACD0639C} = {9B030296-21E7-447E-8B8A-379894B78369}
 		{F62CFD82-E8FE-4769-B697-A18F4ABEA1B6} = {9B030296-21E7-447E-8B8A-379894B78369}
+=======
+		{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A} = {A13C3B84-A8FA-47E8-AC14-E35CAE4954B5}
+>>>>>>> 4136d8cc21ca6c82a0326fb58ea7dc6b816bc06c
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

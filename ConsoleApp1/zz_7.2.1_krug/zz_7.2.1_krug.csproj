@@ -4,6 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{78C0C2ED-19D6-43B6-BEB6-59DE6C143A9A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>zz_7._2._1_krug</RootNamespace>
@@ -11,6 +12,14 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+=======
+    <ProjectGuid>{05FFEFC4-4CA2-42EC-BCBC-7E4058127E8A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>zz_7._2._1_krug</RootNamespace>
+    <AssemblyName>zz_7.2.1_krug</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+>>>>>>> 4136d8cc21ca6c82a0326fb58ea7dc6b816bc06c
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
