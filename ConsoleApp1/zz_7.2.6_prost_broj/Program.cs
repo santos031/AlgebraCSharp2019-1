@@ -28,7 +28,10 @@ namespace zz_7._2._6_prost_broj
 
         static void Main(string[] args)
         {
-            Console.WriteLine(DalSiProst(5));
+            Console.WriteLine("Unesite prirodan broj: ");
+            int num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(DalSiProst(num));
             Console.Read();
         }
     }

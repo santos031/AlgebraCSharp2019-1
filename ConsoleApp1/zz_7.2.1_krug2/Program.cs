@@ -37,7 +37,7 @@ namespace zz_7._2._1_krug2
             {
                 Console.WriteLine("Radijus je: " + ToRadius(num, "p"));
             }
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }

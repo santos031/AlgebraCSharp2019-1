@@ -8,34 +8,41 @@ namespace zz_7._2._9_prosjek
 {
     class Program
     {
-        static void OpisOcjene(double n)
+        static string Prosjek (double o)
         {
-            if (n < 2)
+            string p = "";
+
+            if (o < 2)
             {
-                Console.WriteLine("Nedovoljan");
+                p = "Nedovoljan";
             }
-            else if (n < 2.5)
+            else if (o < 2.5)
             {
-                Console.WriteLine("Dovoljan");
+                p= "Dovoljan";
             }
-            else if (n < 3.5)
+            else if (o < 3.5)
             {
-                Console.WriteLine("Dobar");
+                p = "Dobar";
             }
-            else if (n < 4.5)
+            else if (o < 4.5)
             {
-                Console.WriteLine("Vrlo dobar");
+                p = "Vrlo dobar";
             }
-            else if (n >= 4.5)
+            else if (o >= 4.5)
             {
-                Console.WriteLine("Odlican");
+                p = "Odlican";
             }
+            return p;
         }
 
         static void Main(string[] args)
         {
-            OpisOcjene(4.5);
-            Console.Read();
+            Console.WriteLine("Unesite ocjenu: ");
+            double o = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ocjena je: {0}" , Prosjek(o));
+
+            Console.ReadKey();
         }
     }
 }

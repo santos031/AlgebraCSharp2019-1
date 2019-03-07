@@ -26,9 +26,9 @@
 
         internal double UkupnaCijena()
         {
-            double cijenatotal= 0;
-            cijenatotal = OsnovnaCijena + IznosPoreza();
-            return cijenatotal;
+            double cijenaTotal= 0;
+            cijenaTotal = OsnovnaCijena + IznosPoreza();
+            return cijenaTotal;
         }
 
     }
