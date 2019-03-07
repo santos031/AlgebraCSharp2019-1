@@ -10,12 +10,22 @@ namespace _8._1._2_prirucnik
     {
         static void Main(string[] args)
         {
+            //pozivanje klase Nastavnik
+            Console.WriteLine("Što je to nastavik?");
+            Console.WriteLine(Nastavnik.Opis());
+
+            Console.WriteLine("Koji je koeficijent nastavik?");
+            Console.WriteLine(Nastavnik.Koeficijent());
+
+            Nastavnik n1 = new Nastavnik();
+
+
             //Instanciraj novi objekt klase Ucenik
             Ucenik uc1 = new Ucenik();
 
             //Inicijalizacija objekta (postavljanje svojstava objekta)
             Console.WriteLine("Unesi ime učenika:");
-            uc1.ime = Console.ReadLine();
+            uc1.Ime = Console.ReadLine();
 
             Console.WriteLine("Unesi prezime učenika:");
             uc1.prezime = Console.ReadLine();
@@ -28,13 +38,14 @@ namespace _8._1._2_prirucnik
 
             Console.WriteLine("Unesi ocjenu iz Engleskog:");
             uc1.OcjenaizEngleskog = int.Parse(Console.ReadLine());
+            
 
             Console.WriteLine("Prosjek je: " + uc1.Prosjek());
 
             //instanciraj novi objekt klase Ucenik
             Ucenik uc2 = new Ucenik("Perica");
 
-            Console.WriteLine("Ime ucenika je " + uc1.ime + " i " + uc2.ime);
+            Console.WriteLine("Ime ucenika je " + uc1.Ime + " i " + uc2.Ime);
 
             // List<Ucenik> ucenici = new List<Ucenik>(); //moze i ovako
             List<Ucenik> ucenici = new List<Ucenik>() { uc1, uc2};

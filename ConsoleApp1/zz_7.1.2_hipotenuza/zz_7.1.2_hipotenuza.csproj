@@ -4,13 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E6E8531-7B5E-49A9-89F9-F08AB0BF09B3}</ProjectGuid>
+    <ProjectGuid>{29BC17EC-8318-4629-BCC5-E00FF9592E07}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_8._1._2_prirucnik</RootNamespace>
-    <AssemblyName>8.1.2_prirucnik</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>zz_7._1._2_hipotenuza</RootNamespace>
+    <AssemblyName>zz_7.1.2_hipotenuza</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,10 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Nastavnik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ucenik.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
