@@ -11,7 +11,11 @@ namespace _8._1._2_prirucnik
         public int OcjenaizBiologije = 0;
         public int OcjenaizEngleskog = 0;
 
-        public string Ime { get => ime; set => ime = value; }
+        //enkapsulacija polja ime
+        public string Ime {
+            get => ime;
+            set => ime = ToUpper.FirstCharToUpper(value);
+        }
 
         public Ucenik()
         {

@@ -18,7 +18,19 @@ namespace _8._1._2_prirucnik
             Console.WriteLine(Nastavnik.Koeficijent());
 
             Nastavnik n1 = new Nastavnik();
+            // n1.Ime = "Claudije"; //ne mozemo postaviti READ ONLY property
 
+            //ispis može (set opcija)
+            Console.WriteLine("Njegovo ime je " + n1.Ime);
+
+            //OIB mozemo postaviti
+            n1.Oib = 12345;
+
+
+            //Console.WriteLine("Njegovo OIB je " + n1.Oib); //ne dozvoljava citanje OIBA
+
+            //Ispisi dio OIBA
+            Console.WriteLine("Njegovo OIB je " + n1.PartialOib + "*******");
 
             //Instanciraj novi objekt klase Ucenik
             Ucenik uc1 = new Ucenik();
@@ -43,7 +55,7 @@ namespace _8._1._2_prirucnik
             Console.WriteLine("Prosjek je: " + uc1.Prosjek());
 
             //instanciraj novi objekt klase Ucenik
-            Ucenik uc2 = new Ucenik("Perica");
+            Ucenik uc2 = new Ucenik("perica");
 
             Console.WriteLine("Ime ucenika je " + uc1.Ime + " i " + uc2.Ime);
 
@@ -57,7 +69,15 @@ namespace _8._1._2_prirucnik
                 Console.WriteLine(item);
             }
 
+            Console.WriteLine("\nNastavnici:");
 
+            List<Nastavnik> nastavnici = new List<Nastavnik>();
+            nastavnici.Add(n1);
+
+            foreach (var item in nastavnici)
+            {
+                Console.WriteLine(item);
+            }
 
             Console.ReadKey();
         }
