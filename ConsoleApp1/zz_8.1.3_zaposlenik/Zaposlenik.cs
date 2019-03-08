@@ -25,7 +25,7 @@ namespace zz_8._1._3_zaposlenik
         private double vrijednostBoda;
         public double VrijednostBoda { get => vrijednostBoda; set => vrijednostBoda = value; }
 
-        public double porez
+        public double Porez
         {
             get
             {
@@ -73,10 +73,10 @@ namespace zz_8._1._3_zaposlenik
             this.Prezime = prezime;
         }
 
-        public Zaposlenik(string ime, string prezime, string jmbg)
+        public Zaposlenik(string ime, string prezime, string jmbg) //moguc dodatak :this(ime, prezime) pa se ne mora dvaput izraditi konstruktor
         {
-            this.Ime = ime;
-            this.Prezime = prezime;
+            this.Ime = ime;             //u tom slucaju prva dva reda u tijelu ne treba ponovno navoditi (ime, prezime)
+            this.Prezime = prezime;     //preuzima ih iz prethodnog konstruktora (fallthrow)
             this.Jmbg = jmbg;
         }
 

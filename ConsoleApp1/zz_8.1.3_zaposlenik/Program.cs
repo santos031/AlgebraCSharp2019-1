@@ -29,7 +29,6 @@ namespace zz_8._1._3_zaposlenik
             listaZaposlenika.ForEach(Zaposlenik => UnesiVrijednostBodova(Zaposlenik));
             listaZaposlenika.ForEach(Zaposlenik => IspisiZaposlenika (Zaposlenik));
 
-       
 
             Console.ReadKey();
         }
@@ -69,7 +68,7 @@ namespace zz_8._1._3_zaposlenik
 
         private static void UnesiVrijednostBodova(Zaposlenik zaposlenik)
         {
-            provjeraUnosa = false;
+            bool provjeraUnosa = false;
             while (!provjeraUnosa)
             {
                 Console.WriteLine("Unesite vrijednost boda: ");
