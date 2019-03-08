@@ -66,6 +66,13 @@ namespace zz_8._1._3_zaposlenik
         #region Konstruktori
 
         public Zaposlenik() { }
+
+        public Zaposlenik(string ime, string prezime)
+        {
+            this.Ime = ime;
+            this.Prezime = prezime;
+        }
+
         public Zaposlenik(string ime, string prezime, string jmbg)
         {
             this.Ime = ime;
