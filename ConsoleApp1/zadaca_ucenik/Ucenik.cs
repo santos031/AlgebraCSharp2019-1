@@ -21,8 +21,7 @@ namespace zadaca_ucenik
         public string Oib { set => oib = value; }
 
         public string telefon;
-        public string Telefon { get => telefon; set => telefon = value; }
-
+   
         private double racun;
         public double Racun { get => racun; set => racun = value; }
 
@@ -47,7 +46,7 @@ namespace zadaca_ucenik
 
         public double StvarnoStanjeRacuna()
         {
-            return this.Racun - 900;
+            return this.Racun - 900; ///ne radi ok (jer ne ispisuje umanjenje, treba izracun u kreatoru??? )
         }
 
         #endregion
