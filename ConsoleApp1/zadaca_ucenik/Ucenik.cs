@@ -8,9 +8,6 @@ namespace zadaca_ucenik
 {
     class Ucenik
     {
-        #region Polja
-
-        #endregion
 
         #region Svojstva
 
@@ -24,10 +21,12 @@ namespace zadaca_ucenik
         public string Oib { set => oib = value; }
 
         public string telefon;
-        // public string Telefon { get => telefon; set => telefon = value; }
+        public string Telefon { get => telefon; set => telefon = value; }
 
         private double racun;
         public double Racun { get => racun; set => racun = value; }
+
+        private static Random random = new Random();
 
         #endregion
 
@@ -42,7 +41,6 @@ namespace zadaca_ucenik
 
         public int getRandomNumber()
         {
-            Random random = new Random();
             int rInt = random.Next(2000, 6000);
             return rInt;
         }

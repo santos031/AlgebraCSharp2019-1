@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uvodni", "ConsoleApp1\Uvodni.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
 EndProject
@@ -158,6 +158,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Zadaca_objekti", "3.Zadaca_objekti", "{2AA88D65-F47E-4593-8A9E-401582805B6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadaca_ucenik", "zadaca_ucenik\zadaca_ucenik.csproj", "{4D5A3160-AF58-44EE-A4D7-61F526291305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_8.2.1_staticTests", "zz_8.2.1_staticTests\zz_8.2.1_staticTests.csproj", "{9C8A895C-80A8-4A68-B289-F37AA1875EAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -437,6 +439,10 @@ Global
 		{4D5A3160-AF58-44EE-A4D7-61F526291305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D5A3160-AF58-44EE-A4D7-61F526291305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D5A3160-AF58-44EE-A4D7-61F526291305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8A895C-80A8-4A68-B289-F37AA1875EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8A895C-80A8-4A68-B289-F37AA1875EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8A895C-80A8-4A68-B289-F37AA1875EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8A895C-80A8-4A68-B289-F37AA1875EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
