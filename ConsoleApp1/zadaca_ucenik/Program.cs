@@ -29,6 +29,8 @@ namespace zadaca_ucenik
             //lambda funkcija ispisa ucenika
             listaUcenika.ForEach(Ucenik => IspisiUcenike(Ucenik));
 
+            //listaUcenika.ForEach(Ucenik => Ucenik.Racun -= skolarina); //odmah rjesava problem skolarine uz ispis
+
             Console.ReadKey();
         }
 
