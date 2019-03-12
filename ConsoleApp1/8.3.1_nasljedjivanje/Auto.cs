@@ -1,4 +1,6 @@
-﻿namespace zz_8._1._2_automobil
+﻿using System;
+
+namespace _8._3._1_nasljedjivanje
 {
     internal class Auto
     {

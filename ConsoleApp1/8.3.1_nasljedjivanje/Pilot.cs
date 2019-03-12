@@ -1,14 +1,25 @@
 ﻿namespace _8._3._1_nasljedjivanje
 {
-    internal class Pilot
+    internal class Pilot : Vozac
     {
-        private string v1;
-        private string v2;
-
-        public Pilot(string v1, string v2)
+        public Pilot(string v1, string v2) : base(v1, v2)
         {
-            this.v1 = v1;
-            this.v2 = v2;
+        }
+
+        public bool Kategorija_x { get; internal set; }
+
+        public override string ToString()
+        {
+
+            if (this.Kategorija_x)
+            {
+                return base.ToString() + " X";
+            }
+            else
+            {
+                return base.ToString();
+            }
+
         }
     }
 }
