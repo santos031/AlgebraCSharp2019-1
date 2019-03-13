@@ -169,6 +169,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business_Layer", "Business_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_8.5.1_dogadjaji", "primjer_8.5.1_dogadjaji\primjer_8.5.1_dogadjaji.csproj", "{0F467FC7-0374-4D4A-881F-ED2B068247E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.Rad_s_textom", "9.Rad_s_textom", "{9AAD812E-A3B7-41CC-8C08-E85108ED6C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.1.1_17.manipulacija", "9.1.1_17.manipulacija\9.1.1_17.manipulacija.csproj", "{94463D76-EF63-4754-B07B-6981E90BD949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -467,6 +471,10 @@ Global
 		{0F467FC7-0374-4D4A-881F-ED2B068247E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F467FC7-0374-4D4A-881F-ED2B068247E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F467FC7-0374-4D4A-881F-ED2B068247E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94463D76-EF63-4754-B07B-6981E90BD949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94463D76-EF63-4754-B07B-6981E90BD949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94463D76-EF63-4754-B07B-6981E90BD949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94463D76-EF63-4754-B07B-6981E90BD949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -542,6 +550,7 @@ Global
 		{328D7975-B37A-4580-8B08-14757201BF98} = {A0F4D1F4-962A-4217-92F3-5FEA5E64DEEA}
 		{B35AF55C-1123-41CE-BA1C-D042C18429AD} = {A0F4D1F4-962A-4217-92F3-5FEA5E64DEEA}
 		{0F467FC7-0374-4D4A-881F-ED2B068247E1} = {A0F4D1F4-962A-4217-92F3-5FEA5E64DEEA}
+		{94463D76-EF63-4754-B07B-6981E90BD949} = {9AAD812E-A3B7-41CC-8C08-E85108ED6C7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

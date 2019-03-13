@@ -9,11 +9,13 @@ namespace primjer_8._5._1_dogadjaji
     public class Osoba
     {
         //deklaracija dogadjaja
-        public delegate void NaPromjenuImenaDelegat(object sender, EventArgs e);
+        public delegate void NaPromjenuImenaDelegat(object sender, EventArgs e); //pokazivac eventa
         public event NaPromjenuImenaDelegat NaPromjenuImena;
 
-        //svojstva
+        //polje
         private string ime;
+
+        //svojstvo
         public string Ime
         {
             get { return ime; }
@@ -22,7 +24,7 @@ namespace primjer_8._5._1_dogadjaji
                 ime = value;
                 if (NaPromjenuImena != null)
                 {
-                    NaPromjenuImena(this, new EventArgs());
+                    NaPromjenuImena(this, new EventArgs()); //this se odnosi na Osobu  //EventArgs - lista eventa
                 }
             }
         }
