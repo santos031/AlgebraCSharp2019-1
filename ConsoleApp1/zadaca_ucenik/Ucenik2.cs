@@ -6,24 +6,23 @@ using System.Threading.Tasks;
 
 namespace zadaca_ucenik
 {
-    class Ucenik
+    class Ucenik2
     {
-       
         #region Svojstva
 
         private string ime = "";
-        public string Ime { get => ime; }
+        public string Ime { get => ime; set => ime = value; }
 
         private string prezime = "";
-        public string Prezime { get => prezime; }
+        public string Prezime { get => prezime; set => prezime = value; }
 
         private string oib;
-        public string Oib { set => oib = value; }
+        public string Oib { get => oib;  set => oib = value; }
 
         public string telefon;
         public string Telefon { get => telefon; set => telefon = value; }
 
-        private double racun;
+        private double racun = 0;
         public double Racun { get => racun; set => racun = value; }
 
         #endregion
@@ -54,16 +53,16 @@ namespace zadaca_ucenik
 
         #region Konstruktori
 
-        public Ucenik() { }
+        public Ucenik2() { }
 
-        public Ucenik(string ime, string prezime)
+        public Ucenik2(string ime, string prezime)
         {
             this.ime = ime;
             this.prezime = prezime;
             this.racun = getRandomNumber();
         }
 
-        public Ucenik(string ime, string prezime, string oib)
+        public Ucenik2(string ime, string prezime, string oib)
         {
             this.ime = ime;
             this.prezime = prezime;
@@ -71,7 +70,7 @@ namespace zadaca_ucenik
             this.racun = getRandomNumber();
         }
 
-        public Ucenik(string ime, string prezime, string oib, double racun)
+        public Ucenik2(string ime, string prezime, string oib, double racun)
         {
             this.ime = ime;
             this.prezime = prezime;
