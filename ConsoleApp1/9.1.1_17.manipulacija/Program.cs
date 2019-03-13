@@ -54,7 +54,6 @@ namespace _9._1._1_17.manipulacija
 
             Console.WriteLine("U recenici '{0}' ima {1} rijeci.", recenica, nizrijeci.Length); //broji i znakove ukoliko se ne napise prethodni red
 
-
             Console.ReadKey();
         }
     }
