@@ -46,6 +46,8 @@ namespace zadaca_ucenik
 
 
 
+            //listaUcenika.ForEach(Ucenik => Ucenik.Racun -= skolarina); //odmah rjesava problem skolarine uz ispis
+
             Console.ReadKey();
         }
 

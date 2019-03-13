@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace zz_8._2._1_static
 {
-    class Static
+    public class Static
     {
         private Static() { }
         #region STATIC metode

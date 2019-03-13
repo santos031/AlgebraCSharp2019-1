@@ -8,7 +8,11 @@ namespace zadaca_ucenik
 {
     class Ucenik
     {
+<<<<<<< HEAD
        
+=======
+
+>>>>>>> a4bc292fa5a14f6cef9a63944d5727b1e3d44ee1
         #region Svojstva
 
         private string ime = "";
@@ -21,10 +25,16 @@ namespace zadaca_ucenik
         public string Oib { set => oib = value; }
 
         public string telefon;
+<<<<<<< HEAD
         public string Telefon { get => telefon; set => telefon = value; }
 
+=======
+   
+>>>>>>> a4bc292fa5a14f6cef9a63944d5727b1e3d44ee1
         private double racun;
         public double Racun { get => racun; set => racun = value; }
+
+        private static Random random = new Random();
 
         #endregion
 
@@ -39,14 +49,13 @@ namespace zadaca_ucenik
 
         public int getRandomNumber()
         {
-            Random random = new Random();
             int rInt = random.Next(2000, 6000);
             return rInt;
         }
 
         public double StvarnoStanjeRacuna()
         {
-            return this.Racun - 900;
+            return this.Racun - 900; ///ne radi ok (jer ne ispisuje umanjenje, treba izracun u kreatoru??? )
         }
 
         #endregion
