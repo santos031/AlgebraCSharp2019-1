@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Business_Layer
+
 public abstract class Osoba
 
 {
