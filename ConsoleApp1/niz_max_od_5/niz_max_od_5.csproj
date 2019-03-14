@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{388801F1-F374-408E-9072-3BFF28F2F64C}</ProjectGuid>
+    <ProjectGuid>{5B78F4D4-BC3C-4817-A4B6-96B16EB7B166}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>zz_8._3._1_vozila</RootNamespace>
-    <AssemblyName>zz_8.3.1_vozila</AssemblyName>
+    <RootNamespace>niz_max_od_5</RootNamespace>
+    <AssemblyName>niz_max_od_5</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,12 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Automobil.cs" />
-    <Compile Include="Automobili.cs" />
-    <Compile Include="Brod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vozilo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace zz_8._3._1_vozila
 {
-    class Automobili
+    class Automobili : System.Collections.CollectionBase
     {
+        public int Add(Automobil automobil)
+        {
+            return InnerList.Add(automobil);
+        }
+
+        public void Remove(Automobil automobil)
+        {
+            InnerList.Remove(automobil);
+        }
+
+        public Automobil this[int index]
+        {
+            get
+            {
+                return (Automobil)InnerList[index];
+            }
+        }
     }
 }
