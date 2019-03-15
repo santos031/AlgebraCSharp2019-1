@@ -61,16 +61,8 @@ namespace _2_rijeci_abc
                 Console.WriteLine(rijec + ", ");
             }
 
-            List<string> rijeciostale = (from rijec in rijeci
-                                    where rijec.ToLower().?????(rijeciA,rijeciB,rijeciC)
-                                    select rijec).ToList();
 
-            Console.Write("Riječi koje počinju sa slovom A su: ");
 
-            foreach (var rijec in rijeciA)
-            {
-                Console.WriteLine(rijec + ", ");
-            }
             Console.ReadKey();
         }
     }

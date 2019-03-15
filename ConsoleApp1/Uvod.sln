@@ -235,6 +235,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_broj_naopako", "1_broj_na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_rijeci_abc", "2_rijeci_abc\2_rijeci_abc.csproj", "{89AC8FB8-E52D-427E-8152-366C4318F44C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_klasa_automobil", "3_klasa_automobil\3_klasa_automobil.csproj", "{84A4CFCB-B44C-465D-9275-8C3C6FB8F718}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -633,6 +635,10 @@ Global
 		{89AC8FB8-E52D-427E-8152-366C4318F44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89AC8FB8-E52D-427E-8152-366C4318F44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89AC8FB8-E52D-427E-8152-366C4318F44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A4CFCB-B44C-465D-9275-8C3C6FB8F718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A4CFCB-B44C-465D-9275-8C3C6FB8F718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A4CFCB-B44C-465D-9275-8C3C6FB8F718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A4CFCB-B44C-465D-9275-8C3C6FB8F718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -733,6 +739,7 @@ Global
 		{657F80FE-FB6D-4012-B066-8EE659D1178B} = {9F46A40E-A7F6-4BAB-AFB1-038A978A8E96}
 		{B328195D-2E0E-49F2-A26D-10F0A1D21CEB} = {F94F95E6-508D-4C96-AD68-29F0C3AA05C3}
 		{89AC8FB8-E52D-427E-8152-366C4318F44C} = {F94F95E6-508D-4C96-AD68-29F0C3AA05C3}
+		{84A4CFCB-B44C-465D-9275-8C3C6FB8F718} = {F94F95E6-508D-4C96-AD68-29F0C3AA05C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

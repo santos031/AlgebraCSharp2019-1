@@ -11,7 +11,6 @@ namespace _1_broj_naopako
         static void Main(string[] args)
         {
 
-         
             Console.WriteLine("Unesite prirodan broj");
             string broj = Console.ReadLine();
 
