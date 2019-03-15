@@ -12,9 +12,10 @@ namespace prijestupna_godina
         static void Main(string[] args)
         {
             Console.WriteLine("Unesite godinu: ");
-            DateTime godina = DateTime.Parse(Console.ReadLine());
+            int godina = int.Parse(Console.ReadLine());
 
-            if (!DateTime.IsLeapYear(godina)) ////????
+            if (DateTime.IsLeapYear(godina))  ////???? godina treba biti boolean
+            //Console.WriteLine((DateTime.IsLeapYear(godina)) ? "Ovo je prijestupna godina? " : "Ovo nije prijestupna godina");
             {
                 Console.WriteLine("Godina je PRIJESTUPNA!");
             }
