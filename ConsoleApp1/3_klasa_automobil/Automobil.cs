@@ -22,7 +22,7 @@ namespace _3_klasa_automobil
             return tekucaGodina - starost;
         }
 
-        static double UkupnaCijena(double total)
+        static double UkupnaCijena()
         {
             double ukupnaCijena = 0;
             osnovnaCijena = unos
