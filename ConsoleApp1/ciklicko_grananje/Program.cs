@@ -13,16 +13,17 @@ namespace ciklicko_grananje
             //Unos prrirodnih brojeva, dok se ne upise 0 i izracunava njihovu sumu i prosjek
             int broj = 1;
             int suma = 0;
-            
+            int brojac = 0;
+
             while (broj != 0)
             {
                 Console.WriteLine("Unesite prirodan broj");
                 broj = int.Parse(Console.ReadLine());
-
+                brojac++;
                 suma += broj; 
             }
 
-            Console.WriteLine("Suma unesenih brojeva iznosi" +  suma.ToString() + " a prosjek im je"  + (int)suma / broj);
+            Console.WriteLine("Suma unesenih brojeva iznosi " +  suma.ToString() + " a prosjek im je "  + suma / (brojac - 1));
             Console.ReadKey();
         }
         
