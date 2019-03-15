@@ -15,6 +15,8 @@ namespace recenica_naopako
 
             Console.WriteLine(Naopako(recenica));
 
+            Console.WriteLine(Zamjena(recenica));
+
             Console.ReadKey();
         }
 

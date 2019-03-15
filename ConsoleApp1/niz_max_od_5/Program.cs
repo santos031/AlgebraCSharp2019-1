@@ -10,16 +10,16 @@ namespace niz_max_od_5
     {
         static void Main(string[] args)
         {
-            int [] niz = unesiNizBrojeva();
+            int[]niz = unesiNizBrojeva();
 
             ispisiNizBrojeva(niz);
 
             Console.ReadKey();
         }
 
-        public static int[] unesiNizBrojeva()
+        public static int[]unesiNizBrojeva()
         {
-            int[] niz = new int[5];
+            int[]niz = new int[5];
 
             Console.WriteLine("Unesite 5 brojeva:");
 
