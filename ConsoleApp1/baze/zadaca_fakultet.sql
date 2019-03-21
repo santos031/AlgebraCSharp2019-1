@@ -57,20 +57,22 @@ SELECT imeStud + ' ' +  prezStud AS ime_prezime,
  GO
  
 
- /*3.9.ISPIS SVIH PODATAKA STUDENATA KOJIMA IME POÈINJE I ZAVRŠAVA BILO KOJIM ZNAKOM OSIM SAMOGLASNIKOM
+ /*3.9.ISPIS SVIH PODATAKA STUDENATA KOJIMA IME POÈINJE I ZAVRŠAVA BILO KOJIM ZNAKOM OSIM SAMOGLASNIKOM*/
  USE Fakultet
  SELECT * FROM stud
- WHERE imeStud LIKE '[^ a e i o u]%[^ a e i o u]'
+ WHERE imeStud LIKE '[^ aeiou]%[^ aeiou] %'
+ --WHERE LTRIM(RTRIM(imeStud)) LIKE '[aeiou]%[aeiou]'
+ --izmjena cijele tablice tako da se izbace prazna mjesta
  GO
- nest ne stima???????*/
 
 
- /*3.10.ISPIS SVIH PODATAKA STUDENATA KOJIMA IME POÈINJE ILI ZAVRŠAVA SA SAMOGLASNIKOM
+
+ /*3.10.ISPIS SVIH PODATAKA STUDENATA KOJIMA IME POÈINJE ILI ZAVRŠAVA SA SAMOGLASNIKOM*/
  USE Fakultet
  SELECT * FROM stud
- WHERE imeStud LIKE '[^ a e i o u]%' OR imeStud LIKE '%[^ a e i o u]'
+ WHERE imeStud LIKE '[aeiou]%' OR imeStud LIKE '%[aeiou] %'
  GO
- nest ne stima???????*/
+
 
 
  /*3.11.ISPIS SVIH PODATAKA STUDENATA KOJIMA IME ILI PREZIME SADRZI SLOVA n I k JEDNO IZA DRUGOGA*/
